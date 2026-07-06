@@ -1,0 +1,9 @@
+PATHS:
+  # Files produces with EddyIdentification
+  FILES_PATTERN: '/ec/res4/scratch/ita6648/GLORYS12V1/ALL_FILES/eddy_output_north_atlantic_remapped_swot_grid/Anticyclonic_GLORYS12V1_*.nc'
+  SAVE_DIR: '/ec/res4/scratch/ita6648/GLORYS12V1/ALL_FILES/eddy_output_north_atlantic_remapped_swot_grid/eddy_tracking'
+
+# Number of consecutive timesteps with missing detection allowed
+VIRTUAL_LENGTH_MAX: 0
+# Minimal number of timesteps to considered as a long trajectory
+TRACK_DURATION_MIN: 28
